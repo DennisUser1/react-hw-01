@@ -7,4 +7,8 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: '/react-hw-01/', 
+  build: {
+    outDir: 'dist'
+  }
 })
