@@ -1,0 +1,72 @@
+.statistics {
+    margin: 1.5rem auto;
+    background: rgba(142, 227, 212, 0.22);
+    border-radius: 1.125rem;
+    padding: 0.75rem;
+}
+
+.title {
+    font-size: 1.5rem;    
+    margin: 0;
+    margin-bottom: 1.125rem;
+    color: rgba(36, 106, 93, 0.927);
+    text-transform: uppercase;
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 90, 122);
+    border-radius: 1.125rem;
+}
+
+.statList .item {
+    display: grid;
+    /* justify-items: center;
+    */
+    width: 5rem;
+    padding: 0.375rem;
+    border-right: 1px solid #999999;
+}
+
+/* .statList .item:first-of-type {
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.statList .item:last-child {
+    border-radius: 0 0.75rem 0.75rem 0;
+} */
+
+.statList .item:last-child {
+    border: none;
+}
+
+.statList .label {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #dcdcd5;
+}
+
+.statList .percentage {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 48rem) {
+    .statistics {
+        padding: 2rem;
+    }
+    .statList .item {
+        width: 12.5rem;
+    }
+
+    .statList .label {
+        font-size: 1rem;
+    }
+    
+    .statList .percentage {
+        font-size: 1.5rem;
+    }
+    
+}

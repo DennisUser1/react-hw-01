@@ -1,0 +1,43 @@
+.table {
+    font-size: 1.125rem; 
+    width: 100%;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    border: 0.125rem solid rgb(9, 53, 46); 
+}
+
+.tableHead {
+    background-color:  rgb(21, 164, 140); 
+    color: #ffffff;
+}
+
+.tableRow {
+    border-bottom: 0.125rem solid rgb(9, 53, 46); 
+}
+
+/* .tableRow:last-child {
+    border-bottom: none;
+} */
+
+.tableBody .tableRow:nth-child(2n) {
+    background-color: rgb(19, 212, 180); 
+}
+
+.tableBody .tableRow td {
+    text-transform: capitalize;
+}
+
+.tableHead .tableRow th, .tableBody .tableRow td {
+    padding: 0.5rem 0;
+    border-right: 0.125rem solid rgb(9, 53, 46); 
+}
+
+.tableBody .tableRow td:last-child {
+    border-bottom: none;
+}
+
+@media screen and (min-width: 48rem) {
+    .table { 
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,56 @@
+.avatar {
+    width: 6.25rem;  
+    margin-bottom: 1.875rem;
+}
+
+.username {
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+}
+
+.isOnline {
+    font-size: 1.375rem;
+}
+
+.online {
+    color: rgb(31, 187, 4);
+}
+
+.offline {
+    color: rgb(187, 4, 4);
+}
+
+.statusWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.statusIndicator {
+    border-radius: 50%;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.625rem;
+    background-color: rgb(31, 187, 4); 
+}
+
+.online.statusIndicator {
+    background-color: rgb(31, 187, 4); 
+}
+
+.offline.statusIndicator {
+    background-color: rgb(187, 4, 4); 
+}
+
+@media screen and (min-width: 48rem) {
+    .avatar {
+        width: 7.5rem;
+    }
+    
+    .username {
+        font-size: 2.25rem;
+    }
+
+    .isOnline {
+        font-size: 1.75rem;
+    }
+}
