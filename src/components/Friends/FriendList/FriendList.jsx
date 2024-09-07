@@ -17,7 +17,7 @@ const FriendList = ({ friends }) => {
                 {friends.map((friend) => {
                     return (
                         <li
-                            className={`${styles.listItem} ${activeId === friend.id ? styles.animate : ''}`}
+                            className={`${styles.listItem} ${activeId == friend.id ? styles.animate : ''}`}
                             key={friend.id}
                             onClick={() => handleClick(friend.id)}
                         >

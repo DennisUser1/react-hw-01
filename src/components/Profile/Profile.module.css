@@ -18,7 +18,7 @@
     padding: 1rem;
     border-radius: 1.75rem;
     background: #FFFFFF;
-    box-shadow: 0 1rem 3rem rgba(89, 213, 189, 0.45);
+    box-shadow: 0 1rem 1.5rem rgba(89, 213, 189, 0.45); 
 }
 
 .profileCardImg {
@@ -92,6 +92,11 @@
     .profileCardInfo {
         font-size: 1.375rem
     }
+
+    .profileCardArea {
+        box-shadow: 0 1rem 3rem rgba(89, 213, 189, 0.45);
+    }
+    
 }
 
 
