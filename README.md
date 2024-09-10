@@ -298,6 +298,27 @@ const App = () => {
 };
 ```
 
+## Description of how a friend card with animation works
+
+**Description of `FriendList` component:**
+The `FriendList` component is responsible for displaying a list of friends, each element of which is a card with information about the friend. After the card is clicked, a rotation animation takes place, which shows dynamic interaction with the user.
+
+**Animation operation:**
+
+1. **Animation activation:** After a friend card is clicked, the `activeId` state is changed using the `useState` hook. The state is then reset and immediately set again for the card to display the animation.
+
+2. **Class for animation:** The card corresponding to the active friend gets `animate` class, which triggers a CSS animation of a `720 degree` rotation. This is created using CSS keyframes `@keyframes spin`.
+
+3. **Animation styles:**
+
+- The animation is only applied to the active card and is executed once on each click.
+- Additionally, there is a `hover effect` (hover) that magnifies the card.
+
+**Styles structure:**
+
+- CSS modules are used to isolate styles, which helps to avoid conflicts in class names.
+- Depending on the status `(online/offline)`, a colored indicator next to the username is displayed.
+
 **Завдання 4. Історія транзакцій**
 
 Необхідно створити компонент історії транзакцій в особистому кабінеті інтернет-банку.
