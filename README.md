@@ -3,9 +3,9 @@
 ## Multi-Platform Deployment (GitHub Pages, Vercel, Netlify, Surge)
 
 **GitHub Pages:** [https://dennisuser1.github.io/react-hw-01/](https://dennisuser1.github.io/react-hw-01/)  
-**Vercel:** [react-hw-01-flame.vercel.app](https://react-hw-01-flame.vercel.app)  
+**Vercel:** [https://react-hw-01-flame.vercel.app](https://react-hw-01-flame.vercel.app)  
 **Netlify:** [https://golden-cannoli-b851a5.netlify.app/](https://golden-cannoli-b851a5.netlify.app/)  
-**Surge:** [vite-react-components.surge.sh](https://vite-react-components.surge.sh)     
+**Surge:** [https://vite-react-components.surge.sh](https://vite-react-components.surge.sh)     
 
 ## Файли і папки
 
