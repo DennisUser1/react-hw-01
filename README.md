@@ -1,5 +1,12 @@
 # React-hw-01-Components
 
+## Multi-Platform Deployment (GitHub Pages, Vercel, Netlify, Surge)
+
+[GitHub Pages: https://dennisuser1.github.io/react-hw-01/](https://dennisuser1.github.io/react-hw-01/)
+[Vercel: react-hw-01-flame.vercel.app](react-hw-01-flame.vercel.app)
+[Netlify: https://golden-cannoli-b851a5.netlify.app/](https://golden-cannoli-b851a5.netlify.app/)
+[Surge: vite-react-components.surge.sh](vite-react-components.surge.sh)  
+
 ## Файли і папки
 
 Структура папок і файлів проєкту в папці `src` має виглядати таким чином:
