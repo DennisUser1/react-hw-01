@@ -31,14 +31,41 @@
     height: 0.75rem;
     margin-right: 0.625rem;
     background-color: rgb(31, 187, 4); 
+    transition: background-color 0.5s ease;
 }
 
 .online.statusIndicator {
     background-color: rgb(31, 187, 4); 
+    animation: scale 1.5s linear infinite alternate;
 }
 
 .offline.statusIndicator {
     background-color: rgb(187, 4, 4); 
+    animation: blinking 1.5s linear infinite alternate;
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.85);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.85);
+    }
 }
 
 @media screen and (min-width: 48rem) {
@@ -52,5 +79,10 @@
 
     .isOnline {
         font-size: 1.75rem;
+    }
+
+    .statusIndicator {
+        width: 1rem;
+        height: 1rem;
     }
 }

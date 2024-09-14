@@ -285,7 +285,7 @@ const App = () => {
 
 ```
 import userData from "../userData.json";
-import userData from "../statisticsData.json";
+import data from "../statisticsData.json";
 import friends from "../friends.json";
 
 const App = () => {
@@ -439,7 +439,7 @@ const App = () => {
 
 ```
 import userData from "../userData.json";
-import userData from "../statisticsData.json";
+import data from "../statisticsData.json";
 import friends from "../friends.json";
 import transactions from "../transactions.json";
 
